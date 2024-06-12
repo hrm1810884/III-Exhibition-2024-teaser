@@ -22,9 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <head>
                 <ColorSchemeScript />
             </head>
-            <body className={notoSansJP.className}>
-                {children}
-            </body>
+            <body className={notoSansJP.className}>{children}</body>
         </html>
     );
 }
