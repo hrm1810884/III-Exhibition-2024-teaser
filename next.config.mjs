@@ -19,6 +19,7 @@ const nextConfig = {
     ],
     domains: ["storage.googleapis.com"],
   },
+  output: "export",
 };
 
 export default withVanillaExtract(nextConfig);

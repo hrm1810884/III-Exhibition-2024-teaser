@@ -716,8 +716,8 @@ __metadata:
   linkType: hard
 
 "@floating-ui/react@npm:^0.26.9":
-  version: 0.26.16
-  resolution: "@floating-ui/react@npm:0.26.16"
+  version: 0.26.17
+  resolution: "@floating-ui/react@npm:0.26.17"
   dependencies:
     "@floating-ui/react-dom": ^2.1.0
     "@floating-ui/utils": ^0.2.0
@@ -725,7 +725,7 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: ad65828763e2351fb89cd5937fd3ced19162882251918cb5d46b1048df6e47cb5e1eb1226865dd3c780cee287879e49ff9e65f6035e7b3c27aa9dd35e7b5667c
+  checksum: 55944906193df68557ee13cbdcc959db28c6659ca88f9d8c0dd58fa24544fa4472950a633d997ece1faa3bdc12d7fa22dedf5f1fd92c7393c3e39f7255d934e6
   languageName: node
   linkType: hard
 
@@ -818,8 +818,8 @@ __metadata:
   linkType: hard
 
 "@mantine/core@npm:^7.9.1":
-  version: 7.10.1
-  resolution: "@mantine/core@npm:7.10.1"
+  version: 7.10.2
+  resolution: "@mantine/core@npm:7.10.2"
   dependencies:
     "@floating-ui/react": ^0.26.9
     clsx: ^2.1.1
@@ -828,28 +828,28 @@ __metadata:
     react-textarea-autosize: 8.5.3
     type-fest: ^4.12.0
   peerDependencies:
-    "@mantine/hooks": 7.10.1
+    "@mantine/hooks": 7.10.2
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: bbef93b1a2b55c7a173d6366c14c329154428730577a05cb8649a63ccf936bc683e294acac4dee174fdbf0459997f9315d88c76673f56bc932cf7a4a6598cf90
+  checksum: 52afb11fd13efef4091d197cb4de8d83e1e2be43baccaa9c6ee98f2c7015c8e8200762807a22343241deffa1ea741fe4ffc98ed0487d0f3859ed64c577dae3a9
   languageName: node
   linkType: hard
 
 "@mantine/hooks@npm:^7.9.1":
-  version: 7.10.1
-  resolution: "@mantine/hooks@npm:7.10.1"
+  version: 7.10.2
+  resolution: "@mantine/hooks@npm:7.10.2"
   peerDependencies:
     react: ^18.2.0
-  checksum: c472de75988fc157048501a503ddd6a23fa9e1bf1591a84e48127ad0fc0d28dac60eefe22fa5331f4e238de273b58bacdc5b869716b8fbd6d4cf664b03fb4b54
+  checksum: 671863235ad95117792ed07ef5d6a2f6d7c2146e322fbddf71e8e660b7f902bf8972229cab948aa55269bb98c0f5b262c7f66791c6b01ce96f58f31762401005
   languageName: node
   linkType: hard
 
-"@mantine/vanilla-extract@npm:^7.9.1":
-  version: 7.10.1
-  resolution: "@mantine/vanilla-extract@npm:7.10.1"
+"@mantine/vanilla-extract@npm:^7.10.1":
+  version: 7.10.2
+  resolution: "@mantine/vanilla-extract@npm:7.10.2"
   peerDependencies:
-    "@mantine/core": 7.10.1
-  checksum: 3c52b60c72a41126156da4141758288573718cbac4930156205e40cc10d5bc4ec36f9bfe4c0702685935d913c789443c02ce01c69e272cf9619768b9d0edf2cc
+    "@mantine/core": 7.10.2
+  checksum: a37275c68aa81c634e7024bb8682e426037ef9a4c9ef76cb430d149c153e0f2d35c4146d329776c534250c0a05b1d982b9e901c23bc5ab652c5083b9564ab744
   languageName: node
   linkType: hard
 
@@ -1780,9 +1780,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001579, caniuse-lite@npm:^1.0.30001629":
-  version: 1.0.30001632
-  resolution: "caniuse-lite@npm:1.0.30001632"
-  checksum: 95be155501650ac36a8c3bdf60886bc8f7c419e7715cdaf1c04941f8676c0bd75355aeda62563092585fbe6f9d50d2eb6dea6bd063d7f6a58004ec62d8f8fe49
+  version: 1.0.30001633
+  resolution: "caniuse-lite@npm:1.0.30001633"
+  checksum: 718607f5d335ed26a469b03aaf059aec3352d81d6a974888122310d76c29ff0820e9bf57f16a1eb65693f8cef405e3a18a6257591ee1e5642865a4cb1a27cd4c
   languageName: node
   linkType: hard
 
@@ -2128,9 +2128,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.796":
-  version: 1.4.799
-  resolution: "electron-to-chromium@npm:1.4.799"
-  checksum: 442e3d73dfefe7e9fc7ede891189bf4661d0296301b6c304cd245df935bdaacb0d48ddcdc8d98b6bab91fc763a1841f5250c7687ec6a11342143a74d58bf73d4
+  version: 1.4.801
+  resolution: "electron-to-chromium@npm:1.4.801"
+  checksum: fe2a75afefc08a03b7f077782ef7ab0a755d5f10dfdac981a13910e9257ed149d8a81477c16a4b2e4396ec698f3ad98c339155772f69d2f8f7907b5ee4d57b07
   languageName: node
   linkType: hard
 
@@ -2639,11 +2639,11 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-react-hooks@npm:^4.5.0 || 5.0.0-canary-7118f5dd7-20230705":
-  version: 4.6.2
-  resolution: "eslint-plugin-react-hooks@npm:4.6.2"
+  version: 5.0.0-canary-7118f5dd7-20230705
+  resolution: "eslint-plugin-react-hooks@npm:5.0.0-canary-7118f5dd7-20230705"
   peerDependencies:
     eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
-  checksum: 395c433610f59577cfcf3f2e42bcb130436c8a0b3777ac64f441d88c5275f4fcfc89094cedab270f2822daf29af1079151a7a6579a8e9ea8cee66540ba0384c4
+  checksum: 20e334e60bf5e56cf9f760598411847525c3ff826e6ae7757c8efdc60b33d47a97ddbe1b94ce95956ea9f7bbef37995b19c716be50bd44e6a1e789cba08b6224
   languageName: node
   linkType: hard
 
@@ -3240,7 +3240,7 @@ __metadata:
   dependencies:
     "@mantine/core": ^7.9.1
     "@mantine/hooks": ^7.9.1
-    "@mantine/vanilla-extract": ^7.9.1
+    "@mantine/vanilla-extract": ^7.10.1
     "@phosphor-icons/react": ^2.1.5
     "@types/node": ^20
     "@types/react": ^18

@@ -16,7 +16,7 @@
     "dependencies": {
         "@mantine/core": "^7.9.1",
         "@mantine/hooks": "^7.9.1",
-        "@mantine/vanilla-extract": "^7.9.1",
+        "@mantine/vanilla-extract": "^7.10.1",
         "@phosphor-icons/react": "^2.1.5",
         "@vanilla-extract/recipes": "^0.5.3",
         "next": "14.2.3",
@@ -46,6 +46,6 @@
     },
     "packageManager": "yarn@1.22.22",
     "volta": {
-        "node": "22.3.0"
+        "node": "20.14.0"
     }
 }

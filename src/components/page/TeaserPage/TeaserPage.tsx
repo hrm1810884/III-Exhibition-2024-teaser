@@ -19,7 +19,7 @@ export const TeaserPage = () => {
                     <p className={titleStyle}>なにいう展</p>
                     <div className={imageContainer}>
                         <Image
-                            src="/Date.png"
+                            src={`/Date.png`}
                             alt="the date of iii exhibition 2024"
                             className={imageStyle}
                             layout="responsive"
@@ -29,7 +29,7 @@ export const TeaserPage = () => {
                     </div>
                     <div className={imageContainer}>
                         <Image
-                            src="/Venue.png"
+                            src={`/Venue.png`}
                             alt="the place of iii exhibition 2024"
                             className={imageStyle}
                             layout="responsive"
