@@ -1,3 +1,3 @@
-import { TeaserPage } from "@/components/page/TeaserPage";
+import { TeaserPage } from "@/components";
 
 export default TeaserPage;
