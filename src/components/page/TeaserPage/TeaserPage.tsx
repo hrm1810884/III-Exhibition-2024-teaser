@@ -1,4 +1,5 @@
 import { Button } from "@mantine/core";
+import getConfig from "next/config";
 import Image from "next/image";
 
 import {
@@ -11,6 +12,8 @@ import {
     titleStyle,
 } from "./TeaserPage.css";
 
+const { publicRuntimeConfig } = getConfig();
+const BASE_PATH = publicRuntimeConfig.basePath || "";
 export const TeaserPage = () => {
     return (
         <div className={backgroundStyle}>
@@ -19,7 +22,7 @@ export const TeaserPage = () => {
                     <p className={titleStyle}>なにいう展</p>
                     <div className={imageContainer}>
                         <Image
-                            src={`/Date.png`}
+                            src={`${BASE_PATH}/Date.png`}
                             alt="the date of iii exhibition 2024"
                             className={imageStyle}
                             layout="responsive"
@@ -29,7 +32,7 @@ export const TeaserPage = () => {
                     </div>
                     <div className={imageContainer}>
                         <Image
-                            src={`/Venue.png`}
+                            src={`${BASE_PATH}/Venue.png`}
                             alt="the place of iii exhibition 2024"
                             className={imageStyle}
                             layout="responsive"

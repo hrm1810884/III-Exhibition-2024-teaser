@@ -3,7 +3,7 @@ import { style } from "@vanilla-extract/css";
 import { vars } from "@/styles";
 
 export const backgroundStyle = style({
-    backgroundImage: "url(/WEB2.png)",
+    backgroundImage: `url(/WEB2.png)`,
     backgroundAttachment: "fixed",
     backgroundPosition: "center",
     backgroundSize: "cover",
