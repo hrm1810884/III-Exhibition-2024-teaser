@@ -4,6 +4,9 @@ const withVanillaExtract = createVanillaExtractPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: "/III-Exhibition-2024-teaser",
+  assetPrefix: "/III-Exhibition-2024-teaser/",
+  trailingSlash: true,
   experimental: {
     optimizePackageImports: ["@mantine/core", "@mantine/hooks"],
   },
