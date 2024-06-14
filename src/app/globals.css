@@ -11,7 +11,7 @@ body {
     color: var(--mantine-color-black);
 
     /* 全体のフォントサイズを変更できる */
-    font-size: 90%;
+    font-size: calc(100vh * 16 / 1000);
 }
 
 a {
