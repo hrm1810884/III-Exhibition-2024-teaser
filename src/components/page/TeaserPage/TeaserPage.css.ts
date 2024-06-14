@@ -107,6 +107,7 @@ export const registerButtonStyle = style({
     width: "20rem",
     height: "10rem",
     filter: "drop-shadow(0px 5px  4px #850000)",
+    transform: "translateZ(0)",
     position: "relative",
     "::after": {
         content: '""',
