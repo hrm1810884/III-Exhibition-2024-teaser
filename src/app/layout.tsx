@@ -16,6 +16,9 @@ const marumoni = Local({
 export const metadata: Metadata = {
     title: "III-Exhibition Extra Teaser",
     description: "the teaser of iii exhibition 2024 at University of Tokyo",
+    icons: {
+        icon: "./favicon.ico",
+    },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
