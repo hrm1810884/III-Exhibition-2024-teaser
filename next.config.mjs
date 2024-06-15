@@ -9,9 +9,6 @@ const nextConfig = {
     optimizePackageImports: ["@mantine/core", "@mantine/hooks"],
   },
   reactStrictMode: true,
-  images: {
-    unoptimized: true,
-  },
   output: "export",
 };
 
