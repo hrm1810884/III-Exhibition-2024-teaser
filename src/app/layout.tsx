@@ -14,10 +14,24 @@ const marumoni = Local({
 });
 
 export const metadata: Metadata = {
-    title: "III-Exhibition Extra Teaser",
-    description: "the teaser of iii exhibition 2024 at University of Tokyo",
+    title: "III-Exhibition Extra 2024 Teaser",
+    description: "the teaser web site of iii exhibition 2024 at University of Tokyo",
     icons: {
         icon: "./favicon.ico",
+    },
+    openGraph: {
+        title: "III-Exhibition Extra Teaser",
+        description: "the teaser web site of iii exhibition 2024 at University of Tokyo",
+        url: "https://www.iiiexhibition.com",
+        images: [
+            {
+                url: "/openGraph.png",
+                width: 1200,
+                height: 750,
+                alt: "III-Exhibition Extra Teaser Image",
+            },
+        ],
+        siteName: "III-Exhibition Extra 2024 Teaser",
     },
 };
 
